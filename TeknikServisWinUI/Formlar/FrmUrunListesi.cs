@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace TeknikServisWinUI
+namespace TeknikServisWinUI.Formlar
 {
-    public partial class Form1 : Form
+    public partial class FrmUrunListesi : Form
     {
-        public Form1()
+        public FrmUrunListesi()
         {
             InitializeComponent();
         }
