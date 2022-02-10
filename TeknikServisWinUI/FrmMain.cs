@@ -23,5 +23,11 @@ namespace TeknikServisWinUI
             fr.MdiParent = this; //bu formun üzerine ürün listesi gelsin dedik
             fr.Show();
         }
+
+        private void BtnYeniUrun_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Formlar.FrmYeniUrun fr = new Formlar.FrmYeniUrun();
+            fr.Show();
+        }
     }
 }
